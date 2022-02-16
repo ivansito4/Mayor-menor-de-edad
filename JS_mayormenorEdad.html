@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayor/menor de edad</title>
+    <script>
+        function saludar()
+        {
+            let edadd=document.getElementById("edad").value;
+            let nombre=document.getElementById("number").value;
+            if (edadd<18)
+                {alert(nombre+" es menor de edad")}
+            if(edadd>17)
+                {alert(nombre+" es mayor de edad")}
+        }
+    </script>
+</head>
+<body>
+    <input id="number" type="text"><br>
+    <input id="edad" type="number"><br>
+    <button onclick=" saludar();">Enviar</button>
+</body>
+</html>
+Crea una página con dos input (uno de texto y uno numérico) y un botón.
+
+Al hacer clic en el botón llamas a una función que dice al usuario con un alert:
+
+"NOMBRE eres mayor de edad " o "NOMBRE eres menor de edad".
+
